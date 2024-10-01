@@ -6,6 +6,7 @@ import { getDatabase, ref, set } from 'firebase/database';
 import backImg from '../../src/side.png';
 import backImg1 from '../../src/tag.png';
 import { collection, doc, getFirestore, setDoc } from 'firebase/firestore';
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 
 const firebaseConfig = {
@@ -187,7 +188,9 @@ const SignIn = () => {
     <div style={{ margin: 0, padding: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100vh' }}>
       {/* Left Section (60%) */}
       <div style={{ fontFamily: 'Cursive', width: '60vw', textAlign: 'center' }}>
-        <h1> Wish your friends and family <br />Happy Birthday!</h1>
+        <h1> Wish your friends and family         <SpeedInsights />
+<br />Happy Birthday!</h1>
+        
       </div>
 
       {/* Right Section (40%) */}

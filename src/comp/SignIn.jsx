@@ -188,7 +188,7 @@ const SignIn = () => {
     <div style={{ margin: 0, padding: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100vh' }}>
       {/* Left Section (60%) */}
       <div style={{ fontFamily: 'Cursive', width: '60vw', textAlign: 'center' }}>
-        <h1> Wish your friends and family         <SpeedInsights />
+        <h1> Dev 1 Wish your friends and family         <SpeedInsights />
 <br />Happy Birthday!</h1>
         
       </div>
